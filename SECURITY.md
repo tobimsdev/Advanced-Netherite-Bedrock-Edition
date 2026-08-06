@@ -20,9 +20,9 @@ We will try to respond within **72 hours**.
 
 ## Scope — What counts as a vulnerability?
 
-Since this add-on uses the **Minecraft Script API v2.7.0**
-(`@minecraft/server` and `@minecraft/server-ui`), the following are
-considered security issues:
+Since this add-on uses the Minecraft Script API
+(**`@minecraft/server` 2.9.0** and **`@minecraft/server-ui` 2.1.0**), the
+following are considered security issues:
 
 - Malicious or unintended behavior in any of the scripts
   (`Registry.js`, `ArmorSystem`, `DurabilitySystem`, etc.)

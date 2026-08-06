@@ -5,9 +5,11 @@ Desktop.ini
 !.bridge/compiler/
 !.bridge/extensions
 builds
-CHANGELOG.md
 .gitignore
 .FullName
 .bridge
 config.json
 deno.json
+.kiro
+ACTIONS_AND_STUFF_GUIDE.md
+CHANGELOG.md

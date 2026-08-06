@@ -16,7 +16,6 @@
 			"minecraft:tags": {
 				"tags": [
 					"minecraft:transform_materials",
-					"minecraft:transform_templates",
 					"lsan:ingot"
 				]
 			},

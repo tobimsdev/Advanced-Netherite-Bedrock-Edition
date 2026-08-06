@@ -7,9 +7,9 @@
         "tags": [
             "smithing_table"
         ],
-        "template": "lsan:netherite_diamond_ingot",
+        "template": "minecraft:netherite_upgrade_smithing_template",
         "base": "lsan:netherite_emerald_helmet",
-        "addition": "minecraft:netherite_ingot",
+        "addition": "lsan:netherite_diamond_ingot",
         "result": "lsan:netherite_diamond_helmet"
     }
 }

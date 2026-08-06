@@ -50,9 +50,23 @@ Original textures by: **LizterZapZap** (Java Edition)
 This port has been optimized to offer the best possible compatibility:
 
 *   **No Experiments:** No experimental toggles required to play!
-*   **Compatible Version:** Works on version **1.26.20** and up.
+*   **Compatible Version:** Works on version **1.26.40** and up.
 *   **Maximum Compatibility:** This mod **DOES NOT use player.json**, allowing you to use it with other addons that modify the player without conflicts.
 *   **Modified Entities:** Uses `phantom.json`, `piglin.json`, and `endermen.json` to maintain original mechanics (like Piglins not attacking you while wearing Netherite-Gold armor).
+
+![Break](https://i.postimg.cc/cCZY3QJ5/advancednetheritebreak-new.png)
+
+### 🔨 Smithing Table
+
+Every upgrade uses the vanilla **Netherite Upgrade Smithing Template**. Place the previous tier's item in the base slot and the custom ingot of the tier you are crafting in the addition slot:
+
+*   **Template:** Netherite Upgrade Smithing Template
+*   **Base:** the item from the previous tier
+*   **Addition:** the custom Netherite ingot (Iron, Gold, Emerald, or Diamond)
+
+The custom ingots are only accepted in the addition slot, so they cannot be mistaken for a smithing template.
+
+![Smithing Table](https://i.postimg.cc/W4m0QRQL/upgrade.png)
 
 ![Break](https://i.postimg.cc/cCZY3QJ5/advancednetheritebreak-new.png)
 
@@ -68,17 +82,26 @@ Advanced Netherite is fully compatible with **Durability Armor Viewer** by Dimzc
 
 👉 [Download Durability Armor Viewer here.](https://www.curseforge.com/minecraft-bedrock/addons/durability-armor-viewer)
 
-![Compatibility]([https://i.postimg.cc/2ScQ411R/compability.png](https://i.postimg.cc/d0P9DFtT/durability-armor-viewer.png))
+![Compatibility](https://i.postimg.cc/d0P9DFtT/durability-armor-viewer.png)
+
+![Break](https://i.postimg.cc/cCZY3QJ5/advancednetheritebreak-new.png)
+
+### Actions & Stuff Compatibility (V1.2.0)
+
+Advanced Netherite ships 3D held models for its tools and weapons that match **Actions & Stuff** by Oreville Studios. Because those models are built around the custom hold position that Actions & Stuff applies, they are shipped as an **optional subpack** instead of being always on.
+
+To choose which look you want, open the resource pack settings, select Advanced Netherite, and press the gear icon:
+
+*   **Vanilla** (default) — tools and weapons use the standard flat item sprite. Pick this if you do not use Actions & Stuff.
+*   **Actions & Stuff Compatibility** — enables the 3D held models. Pick this if Actions & Stuff is active in your world.
+
+![A&S](https://i.postimg.cc/RCgLSBqq/A-S-compatibility.png)
 
 ![Break](https://i.postimg.cc/cCZY3QJ5/advancednetheritebreak-new.png)
 
 ### ⚠️ Bedrock Limitations
 
 Due to technical differences between Java and Bedrock engines, the following changes have been made:
-
-*   **Smithing Table:** Custom ingredients in the addition slot are not supported in Bedrock's Smithing Table engine, so `minecraft:netherite_ingot` is used as the addition material with the custom ingot placed in the template slot instead.
-
-![Smithing Table](https://i.postimg.cc/KYW1YLRM/smithing-table.png)
 
 *   **Knockback Resistance:** Items do not feature custom knockback resistance due to current API limitations.
 *   **Blocks:** Custom blocks currently do not function as Beacon bases.
